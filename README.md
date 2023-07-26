@@ -3,6 +3,7 @@
 This project is encouraged by Clement Mihailescu's Sorting Visualizer project (https://github.com/clementmihailescu/Sorting-Visualizer). All the project files are organized within the directories "/src/SortingVisualizer" and "/src/SortingAlgorithms".
 The main component, SortingingVisualizer, is imported and rendered in App.js.
 If you wish to enhance, modify, or fix this version, you are welcome to make changes freely.
+Visit the sorting visualizer here: https://lcs-sortingvisualizer.netlify.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
