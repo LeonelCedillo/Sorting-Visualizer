@@ -1,0 +1,105 @@
+body {
+  background-color: #1c232d;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  background-color: #141c1f;
+  color: #e1e1e1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*******************
+Sliders
+*******************/
+/* .sliders {
+  background-color: rgb(72, 77, 77);
+} */
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.slider-label {
+  color: #e1e1e1;
+  flex: 0 0 50px; /*Adjust the width of the label as needed */
+}
+
+/* /////////////////// */
+.slider-container .slider::-webkit-slider-thumb {
+  background-color: red !important;
+}
+
+/*******************
+Buttons
+*******************/
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  background-color: #1c232d;
+}
+
+.button {
+  width: 10%;
+  background-color: #1c232d;
+  color: #e1e1e1;
+  border: none;
+  /* padding: 10px 20px; */
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.button:disabled {
+  color: #aca9ad;
+  cursor: not-allowed;
+}
+
+/* .button:hover {
+  color: #aca9ad;
+} */
+.button:not(:disabled):hover {
+  color: #aca9ad;
+}
+
+/* .button:active {
+  background-color: #1c232d;
+} */
+
+/*****************
+Array Container
+*****************/
+.array-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  background-color: #1c232d;
+}
+
+.array-bars {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Align bars vertically at the bottom */
+  width: 100%;
+}
+
+.array-bar {
+  width: 100px;
+  display: inline-block;
+  /* 1px on left and 1px on right of each bar */
+  margin: 0 1px;
+}
