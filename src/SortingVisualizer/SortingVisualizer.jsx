@@ -6,7 +6,6 @@ import { getSelectionSortAnimations } from "../SortingAlgorithms/SelectionSort.j
 import { getInsertionSortAnimations } from "../SortingAlgorithms/InsertionSort.js";
 import { getRadixSortAnimations } from "../SortingAlgorithms/RadixSort.js";
 import "./SortingVisualizer.css";
-import { Component } from "react";
 
 const PRIMARY_COLOR = "#512D73"; // Main color of bars.
 const PIVOT_COLOR = "green";
